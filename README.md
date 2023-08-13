@@ -1,6 +1,7 @@
 # Проект: Путешествие по России
 
-
+Ссылка на проект:
+https://funnykot.github.io/russian-travel-bootcamp/index.html
 
 **Интро**
 
@@ -22,7 +23,4 @@ Flex Layout
 
 
 # russian-travel-bootcamp
-# russian-travel-bootcamp
-# russian-travel-bootcamp
-# russian-travel-bootcamp
-# russian-travel-bootcamp
+
