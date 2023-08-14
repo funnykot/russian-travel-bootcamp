@@ -1,7 +1,7 @@
 .cover__background {
     margin: 0;
     position: relative;
-    min-height: 740px;
+    min-height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-decoration: none;
-    aspect-ratio: 16 / 10;
+    /* aspect-ratio: 16 / 10; */
 }
 
 .cover__background::before {
@@ -42,7 +42,7 @@
 @media (max-width: 1024px) {
     .cover__background {
         /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-        min-height: calc((100vw - 768px) / (1024 - 768)*(640 - 480) + 480px);
+        height: 480px;
     }
 }
 
