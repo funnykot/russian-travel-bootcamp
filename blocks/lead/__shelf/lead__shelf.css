@@ -26,3 +26,11 @@
     width: 768px;
   }
 }
+
+@media (max-width: 320px) {
+  .lead__shelf {
+    /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
+    width: 320px;
+    height: 200px;
+  }
+}
