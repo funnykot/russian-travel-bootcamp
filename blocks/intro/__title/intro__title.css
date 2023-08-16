@@ -1,12 +1,12 @@
-.intro__title{
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 1.07;
-    margin: 0;
- }
+.intro__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  margin: 0;
+}
 
- /*
+/*
  @media (max-width: 1280px) {
   .intro__title {
    font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);
@@ -24,8 +24,8 @@
 */
 
 @media (max-width: 768px) {
-.intro__title{
+  .intro__title {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-    font-size: calc((100vw - 320px)/(768 - 320) * (54 - 32) + 32px);
+    font-size: calc((100vw - 320px) / (768 - 320) * (54 - 32) + 32px);
   }
 }

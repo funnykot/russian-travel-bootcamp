@@ -9,7 +9,7 @@
   line-height: 112%;
   color: white;
   height: 100%;
-  transition: opacity .1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
 }
 
 .footer__link:hover {
