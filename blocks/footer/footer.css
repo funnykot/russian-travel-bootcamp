@@ -23,11 +23,11 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 786px) {
   .footer {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-    padding: calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px)
-      calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px) 24px;
+    padding: calc((100vw - 320px) / (786 - 320) * (88 - 64) + 64px)
+      calc((100vw - 320px) / (786 - 320) * (24 - 16) + 16px) 24px;
   }
 }
 

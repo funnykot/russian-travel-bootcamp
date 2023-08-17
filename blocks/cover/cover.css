@@ -24,5 +24,6 @@
   .cover {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     padding-top: calc((100vw - 320px) / (768 - 320) * (90 - 66) + 66px);
+    min-height: 480px;
   }
 }

@@ -10,6 +10,12 @@
   /* text-align: left; */
 }
 
+@media (max-width: 1024px) {
+  .lead__caption {
+    padding: 6px 48px 0 48px;
+  }
+}
+
 @media (max-width: 896px) {
   .lead__caption {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
@@ -22,6 +28,12 @@
   .lead__caption {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     --padding-side: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
-    padding: 6px var(--padding-side) 0;
+    padding: 6px 24px 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__caption {
+    padding: 6px 16px 0 16px;
   }
 }
