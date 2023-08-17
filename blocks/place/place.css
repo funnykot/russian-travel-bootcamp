@@ -7,12 +7,7 @@
   max-width: 984px;
 }
 
-@media (max-width: 1280px) {
-  .place {
-    /* font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-    gap: 48px calc((100vw - 1024px) / (1280 - 1024) * (40 - 32) + 32px);
-  }
-}
+
 
 @media (max-width: 1024px) {
   .place {
@@ -32,7 +27,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 320px) {
   .place {
     grid-template-columns: minmax(min-content, max-content);
     gap: 32px;
